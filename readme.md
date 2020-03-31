@@ -31,7 +31,7 @@ $manager = $container->get(ImageManager::class);
 
 ...
 
-// Or use symfony autowiring
+// Or use symfony dependency injection
 public function __construct(ImageManager $manager)
 {
 	$image = $manager->make('public/foo.jpg')->resize(300, 200);

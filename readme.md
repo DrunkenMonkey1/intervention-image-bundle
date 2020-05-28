@@ -1,5 +1,5 @@
 # Intervention Image Bundle
-A very simple Symfony Bundle that wraps around the [Intervention Image](http://image.intervention.io) ImageManager.
+A **very simple** Symfony Bundle that wraps around the [Intervention Image](http://image.intervention.io) ImageManager.
 
 ## Requirements
 ### Bundle
@@ -44,10 +44,10 @@ public function __construct(ImageManager $manager)
 For all features that come with Intervention Image check their own [documentation](http://image.intervention.io).
 
 ## Configuration
-
 This bundle allows for the following configuration:
 
 ```YAML
-intervention_image:
+# config/packages/impulze_intervention_image.yaml
+impulze_intervention_image:
     driver: gd # or imagick, defaults to gd
 ```
